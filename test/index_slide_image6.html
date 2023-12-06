@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    
+    <style>
+        *{
+            background-color: black;
+            color: white;
+        }
+
+        /* Add any additional styles here */
+        .slider-container {
+            width: 800px; /* Set your desired max width */
+            margin: 0 auto;
+            position: relative;
+        }   
+
+        .slider img {
+            width: 100%;
+        }
+
+
+    
+    </style>
+
+</head>
+<body>
+     
+    
+<div class="slider-container">
+    <ul class="slider">
+        <li>
+            <figure>
+
+                <img src="img/ChessSet.jpg" alt="Slide 1">
+                <figcaption>
+                    <h3>Slide 1</h3>
+                    <p>Description for Slide 1 goes here.</p>
+                </figcaption>
+                
+            </figure>
+        </li>
+
+        <li>
+            <figure>
+
+                <img src="img/landing_page_picture.png" alt="Slide 2">
+                <figcaption>
+                    <h3>Slide 2</h3>
+                    <p>Description for Slide 2 goes here.</p>
+                </figcaption>
+
+            </figure>
+        </li>
+
+        <li>
+            <figure>
+
+                <img src="img/queens_gambit.jpg" alt="Slide 3">
+                <figcaption>
+                    <h3>Slide 3</h3>
+                    <p>Description for Slide 3 goes here.</p>
+                </figcaption>
+
+            </figure>
+        </li>
+
+        <li>
+            <figure>
+
+                <img src="img/queens_gambit.jpg" alt="Slide 4">
+                <figcaption>
+                    <h3>Slide 4</h3>
+                    <p>Description for Slide 4 goes here.</p>
+                </figcaption>
+
+            </figure>
+        </li>
+        <!-- Add more slides as needed -->
+    </ul>
+
+  <button class="slick-prev"></button>
+  <button class="slick-next"></button>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('.slider').slick({
+            slidesToShow: 3,   // Show 3 slides at once
+            slidesToScroll: 1, // Scroll 1 slide at a time
+            arrows: false,     // We're using custom navigation buttons
+        });
+
+        // Custom navigation buttons
+        $('.slick-prev').on('click', function(){
+            $('.slider').slick('slickPrev');
+        });
+
+        $('.slick-next').on('click', function(){
+            $('.slider').slick('slickNext');
+        });
+    });
+</script>
+
+</body>
+</html>
+
+
+<!--
+
+
+-->

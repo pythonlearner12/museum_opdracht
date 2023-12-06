@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Slideshow with Descriptions</title>
+  <style>
+    section {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    figure {
+      display: flex;
+      flex-direction: row; /* Images and text side by side */
+      margin-bottom: 20px; /* Adjust spacing between figures */
+    }
+
+    img {
+      max-width: 100%; /* Ensure images don't exceed their container width */
+    }
+
+    figcaption {
+      margin-left: 10px; /* Adjust the spacing between the image and text */
+    }
+  </style>
+</head>
+<body>
+
+<section>
+  <figure>
+    <img src="img/ChessSet.jpg" alt="Slide 1">
+    <figcaption>
+      <h3>Slide 1</h3>
+      <p>Description for Slide 1 goes here.</p>
+    </figcaption>
+  </figure>
+
+  <figure>
+    <img src="img/queens_gambit.jpg" alt="Slide 2">
+    <figcaption>
+      <h3>Slide 2</h3>
+      <p>Description for Slide 2 goes here.</p>
+    </figcaption>
+  </figure>
+
+  <!-- Add more figures as needed -->
+</section>
+
+</body>
+</html>

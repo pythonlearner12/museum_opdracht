@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+  
+.intro_image{
+  background: url('img/landing_page_picture.png') center/cover; /* what does cover do? */
+  height: 782px;
+  
+}
+
+
+
+
+
+
+
+
+header{
+  padding: 20px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+  background-color: black;/*choose with or without*/
+}
+
+.top_nav{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  gap: 3rem;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.bottom_nav{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  gap: 3rem;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+/*moves logo to the left*/
+.NL_EN{
+  margin-left: auto;
+}
+
+.nav_nxt_logo{
+  height: 80px;
+}
+
+
+
+
+.dropbtn{
+  background: none;
+  cursor: pointer;
+}
+
+.dropdown:hover .dropbtn{
+  display: block;
+  color: rgb(132, 20, 236);
+}
+
+/* Dropdown Content (Hidden by Default) (important)*/
+.dropdown_content{
+  display: none;
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+}
+
+/* Show the dropdown menu on hover (important)*/
+.dropdown:hover .dropdown_content{
+  display: block;
+}
+
+.dropdown_content li:hover {background-color: #515151}
+
+.sub_menu_items{
+  padding: 20px;
+}
+
+
+
+
+
+main{
+  background-color: rgb(0, 0, 0);
+  padding: 60px;
+}
+
+h2{
+  margin: 20px;
+}
+
+/* Add any additional styles here */
+.slider-container {
+  width: 1400px; /* Set to desired width */
+  margin-left: 0;
+  position: relative; /* puts buttons on the side of the images*/
+}
+
+
+
+
+.slider img {
+  width: 100%;
+}
+
+.slide_show_piece{
+  margin: 20px;
+}
+
+figcaption{
+  margin: 20px;
+  margin-left: 0px;
+}
+
+p{
+  margin-top: 20px;
+}
+  
+
+
+.virtual_gallery_list{
+  margin: 20px;
+  display: flex;
+  align-content: center;
+
+  gap: 3rem;
+}
+
+
+.virtual_gallery_image{
+  width: 304.3px;
+  height: 304.3px;
+}
+
+
+
+
+
+  /*
+  
+  */
