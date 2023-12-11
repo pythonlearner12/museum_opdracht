@@ -139,6 +139,7 @@ p{
 
 
 .virtual_gallery_image{
+  /* lines up the edges the rest of the webisite*/
   width: 304.3px;
   height: 304.3px;
 }
@@ -147,6 +148,28 @@ p{
 
 
 
-  /*
+.swiper-wrapper > * {
+    /* google reviews become wider*/
+    width: 290px !important;
+}
+
+.Main__Container-sc-1w4nyzp-0.kzANES.es-main-container{
+    /* lines up the edges the rest of the webisite*/
+    margin: 20px;
+    max-width: none !important;
+}
+
+
+
+
   
-  */
+
+
+/* 
+.swiper-slide.swiper-slide-visible.swiper-slide-active, 
+.swiper-slide.swiper-slide-visible.swiper-slide-next {
+    width: 300px !important;
+}
+
+
+*/
