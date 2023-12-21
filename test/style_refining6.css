@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+    text-decoration: none;
+    list-style-type: none;
+    font-family: sans-serif;
+    border: none;
+  
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+  }
+    
+    
+  
+  body
+  {
+    background-color: black; 
+  }
+  
+  header
+  {
+    padding: 30px;
+    padding-right: 80px;
+  }
+    
+  .top_nav
+  {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  
+    gap: 3rem;
+  }
+  
+  .top_nav :first-child
+  {
+    height: 80px;
+    margin-right: auto; /*moves logo to the left*/
+  }
+  
+  .bottom_nav
+  {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end; 
+    
+    gap: 3rem;
+  }
+  
+  .dropbtn{
+    background: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover{
+    display: block;
+    color: rgb(132, 20, 236);
+  }
+  
+  /* Dropdown Content (Hidden by Default) (important)*/
+  .dropdown_content{
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  /* Show the dropdown menu on hover (important)*/
+  .dropdown:hover .dropdown_content{
+    display: block;
+  }
+  
+  .dropdown_content li:hover {background-color: #515151}
+  
+  .sub_menu_items{
+    padding: 20px;
+  }
+    
+  
+    
+  .intro_image{
+    background: url('img/nxt_museum_intro_image2.png') center/cover; /* what does cover do? */
+    height: 900px;
+  }
+  
+  .intro_text{
+    padding-top: 500px;
+    padding-left: 150px;
+    max-width: 400px;
+    font-size: 1.5rem;
+  }
+    
+
+  
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  main > *{
+    margin-top: 150px;
+  }
+
+  
+  
+
+  .Exb_Events_slider_container{
+    width: 1300px;
+    position: relative; /* puts buttons on the side of the images*/
+  }
+
+  .sub_title{
+    margin-left: 20px;
+  }
+  
+  .slide_show_piece{
+    margin: 20px;
+  }
+  
+  .Exb_Events_imgs{
+    width: 394px !important;
+    height: 250px !important;
+  }
+
+  .Exb_Events_figcap{
+    background-color: #1d1d1d;
+    padding: 40px;
+    height: 120px;
+  }
+
+  .Exb_Events_sub_title{
+    margin-bottom: 10px;
+  }
+
+  .Exb_Events_sub_text{
+    color: rgb(227, 227, 227);
+  }
+  
+  
+
+  
+  .virtual_gallery_list{
+    display: flex;
+    align-content: center;
+    width: min-content;
+  
+    gap: 50px;
+  }
+  
+  .virtual_gallery_image{
+    /* lines up the edges with the rest of the webisite*/
+    width: 280px;
+    height: 280px;
+  }
+
+
+  .virt_gal_figcap{
+    background-color: #1d1d1d;
+    padding: 40px;
+    height: 120px;
+    
+    margin-top: -5px;
+  }
+
+  .virt_gal_sub_text{
+    color: rgb(227, 227, 227);
+    
+    margin-top: -5px;
+  }
+  
+  
+  
+  
+  .swiper-wrapper > * {
+    /* google reviews become wider*/
+    width: 290px !important;
+  }
