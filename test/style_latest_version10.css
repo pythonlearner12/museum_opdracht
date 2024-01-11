@@ -13,16 +13,19 @@
     
     
   
-  body{
+  body
+  {
     background-color: black; 
   }
   
-  header{
+  header
+  {
     padding: 30px;
     padding-right: 80px;
   }
     
-  .top_nav{
+  .top_nav
+  {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -30,12 +33,14 @@
     gap: 3rem;
   }
   
-  .top_nav :first-child{
+  .top_nav :first-child
+  {
     height: 80px;
     margin-right: auto; /*moves logo to the left*/
   }
   
-  .bottom_nav{
+  .bottom_nav
+  {
     display: flex;
     align-items: flex-start;
     justify-content: flex-end; 
@@ -48,7 +53,7 @@
     cursor: pointer;
   }
   
-  .dropdown:hover .dropbtn{
+  .dropbtn:hover{
     display: block;
     color: rgb(132, 20, 236);
   }
@@ -85,8 +90,7 @@
     font-size: 1.5rem;
   }
     
-    
-    
+
   
   main{
     display: flex;
@@ -94,24 +98,43 @@
     align-items: center;
   }
   
+  main > *{
+    margin-top: 150px;
+  }
 
   
   
 
-  .Exhibitions_and_Events_slider_container{
+  .Exb_Events_slider_container{
     width: 1300px;
     position: relative; /* puts buttons on the side of the images*/
-    
-    
+  }
+
+  .sub_title{
+    margin-left: 20px;
   }
   
   .slide_show_piece{
     margin: 20px;
   }
   
-  .Exhibitions_and_Events_imgs{
-    width: 400px !important;
-    height: 400px !important;
+  .Exb_Events_imgs{
+    width: 394px !important;
+    height: 250px !important;
+  }
+
+  .Exb_Events_figcap{
+    background-color: #1d1d1d;
+    padding: 40px;
+    height: 120px;
+  }
+
+  .Exb_Events_sub_title{
+    margin-bottom: 10px;
+  }
+
+  .Exb_Events_sub_text{
+    color: rgb(227, 227, 227);
   }
   
   
@@ -130,16 +153,26 @@
     width: 280px;
     height: 280px;
   }
-  
-  
-  
-  .google_reviews{
-    max-width: max-content;
-  
+
+
+  .virt_gal_figcap{
+    background-color: #1d1d1d;
+    padding: 40px;
+    height: 120px;
+    
+    margin-top: -5px;
   }
+
+  .virt_gal_sub_text{
+    color: rgb(227, 227, 227);
+    
+    margin-top: -5px;
+  }
+  
+  
+  
   
   .swiper-wrapper > * {
     /* google reviews become wider*/
     width: 290px !important;
   }
-    
