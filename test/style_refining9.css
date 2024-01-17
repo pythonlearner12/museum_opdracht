@@ -104,15 +104,23 @@ main > *
   margin-top: 150px;
 }
 
+.sub_title_weird
+{
+    margin-left: 20px;  
+}
+.sub_title,.sub_title_weird
+{
+    margin-bottom: 20px;  
+}
+
 
 .Exb_Events_slider_container
 {
   width: 1300px;
   position: relative; /* puts buttons on the side of the images*/
 }
-.sub_title{margin-left: 20px}
 
-.slide_show_piece{margin: 20px}
+.slide_show_piece{margin: 0 20px;}
 
 .Exb_Events_imgs
 {
@@ -131,7 +139,7 @@ main > *
 .sub_text
 {
   color: rgb(227, 227, 227);
-  padding-top: 10px; 
+  padding-top: 10px;
 }
 
 
