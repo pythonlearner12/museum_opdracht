@@ -124,7 +124,7 @@ main > *
 {
   margin-left: 20px;
 }
-.sub_title
+.sub_title_bottom_spacing
 {
   margin-bottom: 20px;  
 }
@@ -216,10 +216,6 @@ footer {
 .grid-item {
   text-align: left;
   padding: 20px;
-}
-
-.text_spacing {
-  padding-bottom: 15px;
 }
 
 .img_logo {
