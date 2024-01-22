@@ -14,99 +14,85 @@
 </head>
 
 <body>
-
-
-
-
     <header>
         <nav>
 
-            <ul class="top_nav">
+            <ul id="top_nav">
                 <img src="img/nxt_museum_logo.png" alt="logo of the nxt museum">
-                <li><a href="index_NL.html">NL_EN</a></li>
+                <li><a href="NL/index.html">NL_EN</a></li>
                 <li><a href="#Shop">Shop</a></li>
                 <li><a href="#Search">Search</a></li>
                 <li><a href="#Donate">Donate</a></li>
             </ul>
 
-
-            <ul class="bottom_nav">
-
+            <!--shows sub options when hovering over button-->
+            <ul id="bottom_nav">
 
                 <li class="dropdown">
                     <button class="dropbtn">Visit</button>
                     <ul class="dropdown_content">
-                        <li class="sub_menu_items"><a href="#buy_ticket">Buy Ticket</a></li>
-                        <li class="sub_menu_items"><a href="#museum_map">Museum Map</a></li>
-                        <li class="sub_menu_items"><a href="#Accessibility">Accessibility</a></li>
-                        <li class="sub_menu_items"><a href="#food_and_drinks">Food and Drinks</a></li>
+                        <li><a href="#buy_ticket">Buy Ticket</a></li>
+                        <li><a href="#museum_map">Museum Map</a></li>
+                        <li><a href="#Accessibility">Accessibility</a></li>
+                        <li><a href="#food_and_drinks">Food and Drinks</a></li>
                     </ul>
                 </li>
-
-
 
                 <li class="dropdown">
                     <button class="dropbtn">Exhibitions and Events</button>
                     <ul class="dropdown_content">
-                        <li class="sub_menu_items"><a href="#Exhibitions">Exhibitions</a></li>
-                        <li class="sub_menu_items"><a href="#events_and_tours">Events and Tours</a></li>
-                        <li class="sub_menu_items"><a href="#performances">Performances</a></li>
+                        <li><a href="#Exhibitions">Exhibitions</a></li>
+                        <li><a href="#events_and_tours">Events and Tours</a></li>
+                        <li><a href="#performances">Performances</a></li>
                     </ul>
                 </li>
-
 
                 <li class="dropdown">
                     <button class="dropbtn">Art</button>
                     <ul class="dropdown_content">
-                        <li class="sub_menu_items"><a href="#collection">Collection</a></li>
-                        <li class="sub_menu_items"><a href="#gallery">Gallery</a></li>
-                        <li class="sub_menu_items"><a href="#Online_collection">Online Collection</a></li>
-                        <li class="sub_menu_items"><a href="#blogs">Blogs</a></li>
+                        <li><a href="#collection">Collection</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#Online_collection">Online Collection</a></li>
+                        <li><a href="#blogs">Blogs</a></li>
                     </ul>
                 </li>
 
                 <li class="dropdown">
                     <button class="dropbtn">Education</button>
                     <ul class="dropdown_content">
-                        <li class="sub_menu_items"><a href="#Education">Education</a></li>
-                        <li class="sub_menu_items"><a href="#resources">Resources</a></li>
-                        <li class="sub_menu_items"><a href="#12">Workshop</a></li>
+                        <li><a href="#Education">Education</a></li>
+                        <li><a href="#resources">Resources</a></li>
+                        <li><a href="#12">Workshop</a></li>
                     </ul>
                 </li>
 
                 <li class="dropdown">
                     <button class="dropbtn">Membership</button>
                     <ul class="dropdown_content">
-                        <li class="sub_menu_items"><a href="#buy_Membership">Buy Membership</a></li>
-                        <li class="sub_menu_items"><a href="#renew_Membership">Renew Membership</a></li>
-                        <li class="sub_menu_items"><a href="#Upgrade_Membership">Upgrade Membership</a></li>        
-                        <li class="sub_menu_items"><a href="#Members_Room">Members Room</a></li>
+                        <li><a href="#buy_Membership">Buy Membership</a></li>
+                        <li><a href="#renew_Membership">Renew Membership</a></li>
+                        <li><a href="#Upgrade_Membership">Upgrade Membership</a></li>        
+                        <li><a href="#Members_Room">Members Room</a></li>
                     </ul>
                 </li>
 
                 <li class="dropdown">
                     <button class="dropbtn">Support us</button>
                     <ul class="dropdown_content">
-                        <li class="sub_menu_items"><a href="#Become_a_Patron">Become a Patron</a></li>
-                        <li class="sub_menu_items"><a href="#Become_a_Volunteer">Become a Volunteer</a></li>
+                        <li><a href="#Become_a_Patron">Become a Patron</a></li>
+                        <li><a href="#Become_a_Volunteer">Become a Volunteer</a></li>
                     </ul>
                 </li>
 
-
-
-
-
             </ul>
-
         </nav>
-
     </header>
 
-    <!-- hero image with summary text -->
+    <!-- hero image with introduction text -->
     <figure>
-        <div class="intro_image">
-            <figcaption class="intro_text">
-                <h3>Welcome to the NXT museum</h3>
+        <div id="hero_image">
+            <figcaption id="intro_text">
+                <h3 class="sub_title_bottom_spacing">Welcome to the NXT museum</h3>
                 <p>
                     The home of new media art. 
                     Discover large scale, 
@@ -120,13 +106,11 @@
 
     <main>
 
-        <div class="Exb_Events_slider_container">
-    
-                <h2 class="sub_title_weird">Exhibitions and Events</h2>
+        <!--image slider-->
+        <div id="Exb_Events_slider_container">
 
+                <h2 id="sub_title_weird">Exhibitions and Events</h2>
                 <ul class="slider">
-
-
                     <li class= "slide_show_piece">
                         <figure>
                         
@@ -254,29 +238,26 @@
 
         </div>
 
-        <div class="virtual_gallery">
-            
-            <h2 class="sub_title">Virtual Gallery</h2>
+        <!--virtual_gallery-->
+        <div>            
+            <h2 class="sub_title_bottom_spacing">Virtual Gallery</h2>
         
-            <ul class="virtual_gallery_list">
-
-                <li class= "virtual_gallery_piece">
+            <ul id="virtual_gallery_list">
+                <li>
                     <figure>
-                    
-                        <img class= "virtual_gallery_image" src="img/virtual_gallery1.png" alt="abstract art">
+                        <img class= "virtual_gallery_image" src="img/virtual_gallery1.png" alt="abstract art">                        
                         <figcaption class="virt_gal_figcap">
                             <p class="sub_text">                                    
                                 Explore the world,
                                 where organic artifacts like corals and fossils morph into digital nature.                                
                             </p>
+                        
                         </figcaption>
-
                     </figure>
                 </li>
 
-                <li class= "virtual_gallery_piece">
-                    <figure>
-                    
+                <li>
+                    <figure>                    
                         <img class= "virtual_gallery_image" src="img/virtual_gallery2.png" alt="abstract art">
                         <figcaption  class="virt_gal_figcap">
                             
@@ -284,13 +265,11 @@
                                 I use fractal formulas to reveal what already exists on nature's canvas.
                             </p>
                         </figcaption>
-
                     </figure>
                 </li>
 
-                <li class= "virtual_gallery_piece">
-                    <figure>
-                    
+                <li>
+                    <figure>                    
                         <img class= "virtual_gallery_image" src="img/virtual_gallery3.png" alt="abstract art">
                         <figcaption class="virt_gal_figcap">
                             
@@ -299,13 +278,11 @@
                                 where organic artifacts morph into digital nature.                                                            
                             </p>
                         </figcaption>
-
                     </figure>
                 </li>
 
-                <li class= "virtual_gallery_piece">
-                    <figure>
-                    
+                <li>
+                    <figure>                    
                         <img class= "virtual_gallery_image" src="img/virtual_gallery4.png" alt="abstract art">
                         <figcaption class="virt_gal_figcap">
                             
@@ -314,7 +291,6 @@
                                 portrayed via the expression.
                             </p>
                         </figcaption>
-
                     </figure>
                 </li>
 
@@ -322,8 +298,9 @@
         </div>
 
         
-        <div class="google_reviews">
-            <h2 class="sub_title">Reviews</h2>
+        <!--google_reviews-->
+        <div>
+            <h2 class="sub_title_bottom_spacing">Reviews</h2>
             <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
             <div class="elfsight-app-5ea82e79-a692-4a5d-a5d9-306d88a21444" data-elfsight-app-lazy></div>
         </div>
@@ -332,21 +309,85 @@
     </main>
 
     <footer>
-        footer
+        <!--footer info-->
+        <nav id="footer_nav">
+            
+            <div id="footer_container">
+                <!--weird_row has a 1/3, 2/3 split-->
+                <div id="weird_row">
+                    <div class="grid-item">
+                        <h4 class="sub_title_bottom_spacing">Connect With Us</h4>                    
+                        <a href="test"><img class="img_logo" src="img/instagram.png" alt="instagram logo"></a>
+                        <a href="test"><img class="img_logo" src="img/tiktok.png" alt="tiktok logo"></a>
+                        <a href="test"><img class="img_logo" src="img/twitter.png" alt="twitter logo"></a>
+                        <a href="test"><img class="img_logo" src="img/youtube.png" alt="youtube logo"></a>
+                    </div>
+    
+                    <div class="grid-item">
+                        <h4 class="sub_title_bottom_spacing">Enter your email address to receive our newsletter</h4>
+                        <input id="newsletter">
+                        <button id="newsletter_button">sign up</button>
+                    </div>
+                </div>
+            
+                <div class="normal_row">
+                    <div class="grid-item">
+                        <h4 class="sub_title_bottom_spacing">Address</h4>
+                        <p id="footer_address">
+                            Nxt Museum
+                            Asterweg 22
+                            1031 HP Amsterdam
+                        </p>
+                    </div>
+                
+                    <div class="grid-item">
+                        <h4 class="sub_title_bottom_spacing">Opening hours</h4>
+                        <ul>
+                            <li>Mon-Tue: 10:30 am-8:30 pm</li>
+                            <li>Wed: 10:30 am-9:30 pm</li>
+                            <li>Thu-Sun: 10:30 am-10:30 pm</li>
+                        </ul>
+                    </div>
+                
+                    <div class="grid-item">
+                        <h4 class="sub_title_bottom_spacing">Visit</h4>
+                        <ul>
+                            <li><a href="#test">Guided Tours</a></li>
+                            <li><a href="#test">Group Visits</a></li>
+                            <li><a href="#test">Workshops</a></li>
+                            <li><a href="#test">Private Museum Visit</a></li>
+                        </ul>
+                    </div>
+                </div>
+            
+                <div class="normal_row">
+                    <div class="grid-item">
+                        <h4 class="sub_title_bottom_spacing">About Us</h4>
+                        <ul>
+                            <li><a href="test">Our Story</a></li>
+                            <li><a href="test">Jobs</a></li>
+                            <li><a href="test">Contact Us</a></li>
+                            <li><a href="test">FAQ</a></li>
+                        </ul>
+                    </div>
+                
+                    <div class="grid-item">
+                        <h4 class="sub_title_bottom_spacing">Licensing</h4>
+                        <ul>
+                            <li><a href="test">T’s and C’s (visitor terms)</a></li>
+                            <li><a href="test">Cookie statement</a></li>
+                            <li><a href="test">Privacy policy</a></li>
+                            <li><a href="test">Disclaimer</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+
+        </nav>
     </footer>
     
 </body>
-
-
-
 </html>
 
 
-
-
-
-<!--
-
-
-
--->
