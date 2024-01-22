@@ -191,7 +191,7 @@ main > *
 }
 
 
-footer {
+#footer_nav {
   display: flex;
   justify-content: center;
   height: 550px;
@@ -199,12 +199,12 @@ footer {
   background-color: rgb(21, 21, 21);
 }
 
-.main_container
+#footer_container
 {
   width: 1300px;
 }
 
-.weird_row {
+#weird_row {
   display: grid;
   grid-template-columns: 1fr 2fr; /* First row: 1/3 and 2/3 */
 }
@@ -224,7 +224,7 @@ footer {
   height: 60px;
 }
 
-.newsletter {
+#newsletter {
   width: 700px;
   height: 30px;
   color: black;
@@ -232,11 +232,11 @@ footer {
 
 #newsletter_button
 {
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    padding: 5.5px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
 }
 
-.footer_address {
+#footer_address {
   max-width: 140px;
 }

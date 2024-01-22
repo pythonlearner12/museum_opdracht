@@ -14,99 +14,85 @@
 </head>
 
 <body>
-
-
-
-
     <header>
         <nav>
 
-            <ul class="top_nav">
-                <img src="img/nxt_museum_logo.png" alt="Logo van de nxt museum.">
-                <li><a href="index_latest_version11.html">NL_EN</a></li>
+            <ul id="top_nav">
+                <img src="img/nxt_museum_logo.png" alt="logo of the nxt museum">
+                <li><a href="index_latest_version15.html">NL_EN</a></li>
                 <li><a href="#Shop">Winkel</a></li>
                 <li><a href="#Search">Zoeken</a></li>
                 <li><a href="#Donate">Doneren</a></li>
             </ul>
 
-
-            <ul class="bottom_nav">
-
+            <!--shows sub options when hovering over button-->
+            <ul id="bottom_nav">
 
                 <li class="dropdown">
                     <button class="dropbtn">Bezoeken</button>
                     <ul class="dropdown_content">
-                        <li class="sub_menu_items"><a href="#buy_ticket">Ticket Kopen</a></li>
-                        <li class="sub_menu_items"><a href="#museum_map">Museum Map</a></li>
-                        <li class="sub_menu_items"><a href="#Accessibility">Toegankelijkheid</a></li>
-                        <li class="sub_menu_items"><a href="#food_and_drinks">Eten en Drinken</a></li>
+                        <li><a href="#buy_ticket">Ticket Kopen</a></li>
+                        <li><a href="#museum_map">Museum Map</a></li>
+                        <li><a href="#Accessibility">Toegankelijkheid</a></li>
+                        <li><a href="#food_and_drinks">Eten en Drinken</a></li>
                     </ul>
                 </li>
-
-
 
                 <li class="dropdown">
                     <button class="dropbtn">Exposities en Evenementen</button>
                     <ul class="dropdown_content">
-                        <li class="sub_menu_items"><a href="#Exhibitions">Exposities</a></li>
-                        <li class="sub_menu_items"><a href="#events_and_tours">Evenementen en Tours</a></li>
-                        <li class="sub_menu_items"><a href="#performances">Optredingen</a></li>
+                        <li><a href="#Exhibitions">Exposities</a></li>
+                        <li><a href="#events_and_tours">Evenementen en Tours</a></li>
+                        <li><a href="#performances">Optredingen</a></li>
                     </ul>
                 </li>
-
 
                 <li class="dropdown">
                     <button class="dropbtn">Kunst</button>
                     <ul class="dropdown_content">
-                        <li class="sub_menu_items"><a href="#collection">collectie</a></li>
-                        <li class="sub_menu_items"><a href="#gallery">galerij</a></li>
-                        <li class="sub_menu_items"><a href="#Online_collection">Online collectie</a></li>
-                        <li class="sub_menu_items"><a href="#blogs">Blogs</a></li>
+                        <li><a href="#collection">Collectie</a></li>
+                        <li><a href="#gallery">Galerij</a></li>
+                        <li><a href="#Online_collection">Virtuele Galerij</a></li>
+                        <li><a href="#blogs">Blogs</a></li>
                     </ul>
                 </li>
 
                 <li class="dropdown">
                     <button class="dropbtn">Educatie</button>
                     <ul class="dropdown_content">
-                        <li class="sub_menu_items"><a href="#Education">Educatie</a></li>
-                        <li class="sub_menu_items"><a href="#resources">Bronnen</a></li>
-                        <li class="sub_menu_items"><a href="#12">Studiedag</a></li>
+                        <li><a href="#Education">Educatie</a></li>
+                        <li><a href="#resources">Bronnen</a></li>
+                        <li><a href="#12">Studiedag</a></li>
                     </ul>
                 </li>
 
                 <li class="dropdown">
                     <button class="dropbtn">Abonnement</button>
                     <ul class="dropdown_content">
-                        <li class="sub_menu_items"><a href="#buy_Membership">Abonnement Kopen</a></li>
-                        <li class="sub_menu_items"><a href="#renew_Membership">Abonnement Vernieuwen</a></li>
-                        <li class="sub_menu_items"><a href="#Upgrade_Membership">Upgrade Abonnement</a></li>        
-                        <li class="sub_menu_items"><a href="#Members_Room">Leden's Kamer</a></li>
+                        <li><a href="#buy_Membership">Abonnement Kopen</a></li>
+                        <li><a href="#renew_Membership">Abonnement Vernieuwen</a></li>
+                        <li><a href="#Upgrade_Membership">Upgrade Abonnement</a></li>        
+                        <li><a href="#Members_Room">Leden's Kamer</a></li>
                     </ul>
                 </li>
 
                 <li class="dropdown">
                     <button class="dropbtn">Steun Ons</button>
                     <ul class="dropdown_content">
-                        <li class="sub_menu_items"><a href="#Become_a_Patron">word een Ondersteuner</a></li>
-                        <li class="sub_menu_items"><a href="#Become_a_Volunteer">word een vrijwilliger</a></li>
+                        <li><a href="#Become_a_Patron">Word een Ondersteuner</a></li>
+                        <li><a href="#Become_a_Volunteer">Word een vrijwilliger</a></li>
                     </ul>
                 </li>
 
-
-
-
-
             </ul>
-
         </nav>
-
     </header>
 
-    <!-- Introduction -->
+    <!-- hero image with introduction text -->
     <figure>
-        <div class="intro_image">
-            <figcaption class="intro_text">
-                <h3>Welcome naar het NXT museum</h3>
+        <div id="hero_image">
+            <figcaption id="intro_text">
+                <h3 class="sub_title_bottom_spacing">Welcome naar het NXT museum</h3>
                 <p>
                     Het thuis voor nieuwe mediakunst.
                     Ontdek grootschalige,
@@ -120,20 +106,18 @@
 
     <main>
 
-        <div class="Exb_Events_slider_container">
-    
-                <h2 class="sub_title">Exposities en Evenementen</h2>
+        <!--image slider-->
+        <div id="Exb_Events_slider_container">
 
+                <h2 id="sub_title_weird">Exposities en Evenementen</h2>
                 <ul class="slider">
-
-
                     <li class= "slide_show_piece">
                         <figure>
                         
-                            <img class="Exb_Events_imgs" src="img/event1_2.png" alt="Mensen die praten met wijn in de nxt museum">
+                            <img class="Exb_Events_imgs" src="img/event1_2.png" alt="people talking with wine in nxt museum">
                             <figcaption class="Exb_Events_figcap">
                                 <h2 class="Exb_Events_sub_title">Goede Wijn</h2>
-                                <p class="Exb_Events_sub_text">
+                                <p class="sub_text">
                                     Koppel onze betoverende digitale kunst in realtime aan een glas wijn, 
                                     geselecteerd door Café Restaurant Metro.
                                 </p>
@@ -146,10 +130,10 @@
                     <li class= "slide_show_piece">
                         <figure>
                         
-                            <img class="Exb_Events_imgs" src="img/event2_2.png" alt="Standbeeld van een alien achtig person">
+                            <img class="Exb_Events_imgs" src="img/event2_2.png" alt="statue of an alien like person">
                             <figcaption class="Exb_Events_figcap">
                                 <h3 class="Exb_Events_sub_title">Queer Intelligentie</h3>
-                                <p class="Exb_Events_sub_text">
+                                <p class="sub_text">
                                     Terwijl we Pride-maand vieren en de laatste weken van onze tentoonstelling, 
                                     UFO Unidentified Fluid Other.
                                 </p>
@@ -162,10 +146,10 @@
                     <li class= "slide_show_piece">
                         <figure>
                         
-                            <img class="Exb_Events_imgs" src="img/event3_2.png" alt="Persoon die op een stoel zit terwijl hij in de wolken zit.">
+                            <img class="Exb_Events_imgs" src="img/event3_2.png" alt="person sitting on chair while falling down onto earth">
                             <figcaption class="Exb_Events_figcap">
                                 <h3 class="Exb_Events_sub_title">Filmvertoning</h3>
-                                <p class="Exb_Events_sub_text">
+                                <p class="sub_text">
                                     Kom en laat al je illusies van zelf breken in het nieuwste videowerk van beeldend kunstenaar Lu Yang,
                                     Doku The Self.
                                 </p>
@@ -178,11 +162,12 @@
                     <li class= "slide_show_piece">
                         <figure>
                         
-                            <img class="Exb_Events_imgs" src="img/event4_2.png" alt="Spin achtig dier.">
+                            <img class="Exb_Events_imgs" src="img/event4_2.png" alt="spider like creature">
                             <figcaption class="Exb_Events_figcap">
                                 <h3 class="Exb_Events_sub_title">XENOPUNK VR</h3>
-                                <p class="Exb_Events_sub_text">
-                                    "Xenopunk" is een nieuwe interpretatie van het kenmerkende door AI aangestuurde digitale ecosysteem van het collectief.
+                                <p class="sub_text">
+                                    "Xenopunk" is een nieuwe interpretatie van het kenmerkende,
+                                    door AI aangestuurde digitale ecosysteem van het collectief.
                                 </p>
                             </figcaption>
                         
@@ -193,11 +178,12 @@
                     <li class= "slide_show_piece">
                         <figure>
                         
-                            <img class="Exb_Events_imgs" src="img/event5_2.png" alt="Mensen die een disco party beleven.">
+                            <img class="Exb_Events_imgs" src="img/event5_2.png" alt="people enjoying a disco party">
                             <figcaption class="Exb_Events_figcap">
                                 <h3 class="Exb_Events_sub_title">Museumnacht Amsterdam</h3>
-                                <p class="Exb_Events_sub_text">
-                                    Betreed een portaal naar een ander paradigma en dompel jezelf onder in de nieuwste tentoonstelling van Nxt Museum,
+                                <p class="sub_text">
+                                    Betreed een portaal naar een ander paradigma en 
+                                    dompel jezelf onder in de nieuwste tentoonstelling van Nxt Museum,
                                     UFO.
                                 </p>
                             </figcaption>
@@ -209,11 +195,12 @@
                     <li class= "slide_show_piece">
                         <figure>
                         
-                            <img class="Exb_Events_imgs" src="img/event6_2.png" alt="Dj die muziek speelt.">
+                            <img class="Exb_Events_imgs" src="img/event6_2.png" alt="dj playing music">
                             <figcaption class="Exb_Events_figcap">
                                 <h3 class="Exb_Events_sub_title">ADE Ritme</h3>
-                                <p class="Exb_Events_sub_text">
-                                    We beginnen met een optreden van kunstenaar en programmeur YUXI CAO en geluidskunstenaar Lau Hiu Kong (Lawrence).
+                                <p class="sub_text">                                   
+                                    We beginnen met een optreden van kunstenaar en
+                                    programmeur YUXI CAO en geluidskunstenaar Lau Hiu Kong (Lawrence).
                                 </p>
                             </figcaption>
                         
@@ -251,66 +238,59 @@
 
         </div>
 
-        <div class="virtual_gallery">
-            
-            <h2>Virtuele Galerij</h2>
+        <!--virtual_gallery-->
+        <div>            
+            <h2 class="sub_title_bottom_spacing">Virtuele Galerij</h2>
         
-            <ul class="virtual_gallery_list">
-
-                <li class= "virtual_gallery_piece">
+            <ul id="virtual_gallery_list">
+                <li>
                     <figure>
-                    
-                        <img class= "virtual_gallery_image" src="img/virtual_gallery1.png" alt="Abstract Kunst.">
+                        <img class= "virtual_gallery_image" src="img/virtual_gallery1.png" alt="abstract art">                        
                         <figcaption class="virt_gal_figcap">
-                            <p class="virt_gal_sub_text">
+                            <p class="sub_text">                                
                                 Verken de wereld,
-                                waar organische artefacten zoals koralen en fossielen transformeren in digitale natuur.                                                               
+                                waar organische artefacten zoals
+                                koralen en fossielen transformeren in digitale natuur.            
                             </p>
+                        
                         </figcaption>
-
                     </figure>
                 </li>
 
-                <li class= "virtual_gallery_piece">
-                    <figure>
-                    
+                <li>
+                    <figure>                    
                         <img class= "virtual_gallery_image" src="img/virtual_gallery2.png" alt="abstract art">
                         <figcaption  class="virt_gal_figcap">
                             
-                            <p class="virt_gal_sub_text">
+                            <p class="sub_text">                                
                                 Ik gebruik fractalformules om te onthullen wat al op het doek van de natuur bestaat.
                             </p>
                         </figcaption>
-
                     </figure>
                 </li>
 
-                <li class= "virtual_gallery_piece">
-                    <figure>
-                    
+                <li>
+                    <figure>                    
                         <img class= "virtual_gallery_image" src="img/virtual_gallery3.png" alt="abstract art">
                         <figcaption class="virt_gal_figcap">
                             
-                            <p class="virt_gal_sub_text">
+                            <p class="sub_text">                                
                                 Verken de Acropia,
-                                waar organische artefacten transformeren in digitale natuur.                                                                                           
+                                waar organische artefacten transformeren in digitale natuur.                                                                 
                             </p>
                         </figcaption>
-
                     </figure>
                 </li>
 
-                <li class= "virtual_gallery_piece">
-                    <figure>
-                    
+                <li>
+                    <figure>                    
                         <img class= "virtual_gallery_image" src="img/virtual_gallery4.png" alt="abstract art">
                         <figcaption class="virt_gal_figcap">
                             
-                            <p class="virt_gal_sub_text">
+                            <p class="sub_text">
                                 Ik ondermijn de blik op hoe lichamen van vrouwen worden afgebeeld via de expressie.
                             </p>
                         </figcaption>
-
                     </figure>
                 </li>
 
@@ -318,8 +298,9 @@
         </div>
 
         
-        <div class="google_reviews">
-            <h2>Reviews</h2>
+        <!--google_reviews-->
+        <div>
+            <h2 class="sub_title_bottom_spacing">Reviews</h2>
             <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
             <div class="elfsight-app-5ea82e79-a692-4a5d-a5d9-306d88a21444" data-elfsight-app-lazy></div>
         </div>
@@ -328,21 +309,86 @@
     </main>
 
     <footer>
-        footer
+        <!--footer info-->
+        <nav id="footer_nav">
+            
+            <div id="footer_container">
+                <!--weird_row has a 1/3, 2/3 split-->
+                <div id="weird_row">
+                    <div class="grid-item">
+                        <h4 class="sub_title_bottom_spacing">Volg ons</h4>                    
+                        <a href="test"><img class="img_logo" src="img/instagram.png" alt="instagram logo"></a>
+                        <a href="test"><img class="img_logo" src="img/tiktok.png" alt="tiktok logo"></a>
+                        <a href="test"><img class="img_logo" src="img/twitter.png" alt="twitter logo"></a>
+                        <a href="test"><img class="img_logo" src="img/youtube.png" alt="youtube logo"></a>
+                    </div>
+    
+                    <div class="grid-item">
+                        <h4 class="sub_title_bottom_spacing">Voer uw e-mailadres in om onze nieuwsbrief te ontvangen</h4>
+                        <input id="newsletter">
+                        <button id="newsletter_button">Aanmelden</button>
+                    </div>
+                </div>
+            
+                <div class="normal_row">
+                    <div class="grid-item">
+                        <h4 class="sub_title_bottom_spacing">Address</h4>
+                        <p id="footer_address">
+                            Nxt Museum
+                            Asterweg 22
+                            1031 HP Amsterdam
+                        </p>
+                    </div>
+                
+                    <div class="grid-item">
+                        <h4 class="sub_title_bottom_spacing">Openingstijden</h4>
+                        <ul>
+                            <li>Ma-Di: 10:30 - 20:30</li>
+                            <li>Wo: 10:30 - 21:30</li>
+                            <li>Do-Zo: 10:30 - 22:30</li>
+                            
+                        </ul>
+                    </div>
+                
+                    <div class="grid-item">
+                        <h4 class="sub_title_bottom_spacing">Bezoeken</h4>
+                        <ul>
+                            <li><a href="#test">Rondleidingen</a></li>
+                            <li><a href="#test">Groepsbezoek</a></li>
+                            <li><a href="#test">Studiedag</a></li>
+                            <li><a href="#test">Privé museumbezoek</a></li>
+                        </ul>
+                    </div>
+                </div>
+            
+                <div class="normal_row">
+                    <div class="grid-item">
+                        <h4 class="sub_title_bottom_spacing">Over ons</h4>
+                        <ul>
+                            <li><a href="test">Ons verhaal</a></li>
+                            <li><a href="test">Banen</a></li>
+                            <li><a href="test">Contact ons</a></li>
+                            <li><a href="test">Overige Vragen</a></li>
+                        </ul>
+                    </div>
+                
+                    <div class="grid-item">
+                        <h4 class="sub_title_bottom_spacing">Licenties</h4>
+                        <ul>
+                            <li><a href="test">bezoekersvoorwaarden</a></li>
+                            <li><a href="test">Cookieverklaring</a></li>
+                            <li><a href="test">Privacybeleid</a></li>
+                            <li><a href="test">Disclaimer</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+
+        </nav>
     </footer>
     
 </body>
-
-
-
 </html>
 
 
-
-
-
-<!--
-
-
-
--->

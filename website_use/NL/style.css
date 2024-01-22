@@ -89,7 +89,7 @@ header
  
 #hero_image
 {
-  background: url('img/nxt_museum_intro_image2.png') center/cover; /* what does cover do? */
+  background: url('../img/nxt_museum_intro_image2.png') center/cover; /* what does cover do? */
   height: 900px;
 }
 
@@ -225,7 +225,7 @@ main > *
 }
 
 #newsletter {
-  width: 700px;
+  width: 690px;
   height: 30px;
   color: black;
 }
@@ -234,7 +234,7 @@ main > *
 {
   color: rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
-  padding: 5.5px;
+  padding: 5px;
 }
 
 #footer_address {
