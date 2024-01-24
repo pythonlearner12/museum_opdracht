@@ -89,7 +89,7 @@ header
  
 #hero_image
 {
-  background: url('../img/nxt_museum_intro_image2.png') center/cover; /* what does cover do? */
+  background: url('../img/nxt_museum_intro_image2.jpg') center/cover; /* what does cover do? */
   height: 900px;
 }
 

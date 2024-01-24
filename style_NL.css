@@ -82,7 +82,7 @@ header
 .dropdown_content > *
 {
   padding: 20px;
-<<<<<<< HEAD
+
 }
 
  
@@ -90,15 +90,7 @@ header
  
 #hero_image
 {
-  background: url('img/nxt_museum_intro_image2.png') center/cover; /* what does cover do? */
-=======
-  }
-  
-  
-  
-  .intro_image{
   background: url('img/nxt_museum_intro_image2.jpg') center/cover; /* what does cover do? */
->>>>>>> 9a7961a5b18bfd28578934a46c4463bafb6462f9
   height: 900px;
 }
 
