@@ -94,7 +94,7 @@ header
 }
 
 #intro_text {
-  padding: 500px 0 0 150px; /* top right bottom left */
+  padding: 400px 0 0 150px; /* top right bottom left */
   max-width: 400px;
   font-size: 1.5rem;
 }
