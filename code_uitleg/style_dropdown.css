@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+
+  text-decoration: none;
+  list-style-type: none;
+  font-family: sans-serif;
+  border: none;  
+  background: none;
+
+  color: rgb(255, 255, 255);
+  background-color: black; 
+  font-size: 1.1rem;
+}
+ 
+ 
+
+
+
+ 
+
+
+/* Dropdown Content (Hidden by Default)*/
+.dropdown_content
+{
+  display: none;
+}
+
+/* Show the dropdown menu on hover*/
+.dropdown:hover .dropdown_content
+{
+  display: block;
+}

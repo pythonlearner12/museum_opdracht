@@ -2,38 +2,36 @@
 <html>
 
 <head>
-  <style>
-    .grid-container {
-      display: grid;
-      grid-template-columns: auto auto auto;
-    }
+    <title>Image and Text Example</title>
+    <style>
+        /* Style to create a simple layout with image on the left and text on the right */
+        .container {
+            display: flex;
+            align-items: center;
+        }
 
-    .grid-item {
-      border: 1px solid black;
-    }
+        .image {
+            flex: 1;
+            margin-right: 20px; /* Adjust margin as needed */
+        }
 
-    li {
-      display: inline-block;
-    }
-  </style>
+        .text {
+            flex: 1;
+        }
+    </style>
 </head>
 
 <body>
 
-  <div class="grid-container">
-    <div class="grid-item">
-      <p>hdsadsa</p>
-
-      <p>hdsadsa</p>
+    <div class="container">
+        <div class="image">
+            <img src="your-image.jpg" alt="Image description">
+        </div>
+        <div class="text">
+            <h2>Your Title</h2>
+            <p>Your text goes here.</p>
+        </div>
     </div>
-
-    <div class="grid-item">
-      <p>hdsadsa</p>
-
-      <p>hdsadsa</p>
-    </div>
-    
-  </div>
 
 </body>
 
