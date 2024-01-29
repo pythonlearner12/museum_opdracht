@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#hero_image
+{
+  background: url('../img/nxt_museum_intro_image2.jpg') center; /* what does cover do? */
+  height: 900px;
+}
+
+
