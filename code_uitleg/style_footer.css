@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+
+  text-decoration: none;
+  list-style-type: none;
+  font-family: sans-serif;
+  border: none;
+
+  color: rgb(255, 255, 255);
+  font-size: 1.1rem;
+}
+ 
+ 
+
+
+
+/*
+  wij hebben breuken gebruikt voor de footer.
+
+  de fr is de teller.(fractions)
+  en alles opgeteld is de noemer.
+
+
+  in dit voorbeeld is de de breuk 1/3
+  de teller = 1fr
+  de noemer = 1fr+1fr+1fr
+  
+*/
+#weird_row {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+ 
+.normal_row {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr; 
+}
+
+.grid-item {
+  border-style: groove;
+  border-color: black;
+  
+  margin: 20px;
+  padding: 20px;
+}
+

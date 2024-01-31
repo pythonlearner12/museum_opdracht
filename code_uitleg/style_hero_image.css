@@ -1,14 +1,19 @@
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-
+#container
+{
+  margin: 200px;
+}
 
 #hero_image
 {
-  background: url('../img/nxt_museum_intro_image2.jpg') center; /* what does cover do? */
+  background: url('../img/nxt_museum_intro_image2.jpg') center/cover;
+  
+  /*zonder cover zou de image zichzelf herhalen, todat het de vole scherm heeft bedekt*/
+  /*center focuseert zich op dat gedeelte van het sherm als er niet genoeg ruimte is */
+   
   height: 900px;
 }
-
-
