@@ -63,6 +63,16 @@ body.DarkMode{
   background-color: lightgray;
 }
 
+.DarkModeButton{
+  background-color: black;
+  color: white;
+}
+
+.DarkMode .DarkModeButton{
+  background-color: white;
+  color: black;
+}
+
 
 header
 {
