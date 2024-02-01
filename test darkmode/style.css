@@ -126,19 +126,22 @@ header
   display: block;
 }
 
+#darkmodeContent{
+  height: 70px;
+}
+
 /*makes it clear what you are selecting*/
 .dropdown_content li:hover {background-color: #515151}
 
-.DarkMode .dropdown_content li:hover {background-color: rgb(255, 254, 254)}
+.DarkMode .dropdown_content li:hover {
+  background-color: rgb(255, 254, 254)
+}
 
 
 .dropdown_content > *
 {
   padding: 20px;
 }
-
-
- 
 
  
 #hero_image

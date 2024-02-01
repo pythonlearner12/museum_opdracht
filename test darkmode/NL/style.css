@@ -120,6 +120,10 @@ header
   
 }
 
+#darkmodeContent{
+  height: 70px;
+}
+
 /*makes it clear what you are selecting*/
 .dropdown_content li:hover {background-color: #515151}
 
