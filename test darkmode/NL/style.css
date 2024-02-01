@@ -25,7 +25,7 @@ button{
   color:white;
 }
 body.DarkMode{
-  background-color: black;
+  background-color: white;
   color: black;
 }
 .DarkMode   button{
@@ -59,6 +59,16 @@ body.DarkMode{
 
 .DarkMode .swiper-slide{
   background-color: lightgray;
+}
+
+.DarkModeButton{
+  background-color: black;
+  color: white;
+}
+
+.DarkMode .DarkModeButton{
+  background-color: white;
+  color: black;
 }
 
 
