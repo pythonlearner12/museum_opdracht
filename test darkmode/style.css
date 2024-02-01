@@ -19,6 +19,11 @@ body
   background-color: black; 
 }
 
+.DarkModeButton
+{
+  cursor: pointer;
+}
+
 a{
   color:white;
 }
@@ -108,8 +113,6 @@ header
 {
   background: none;
   cursor: pointer;
-
- 
 }
 
 .dropbtn:hover
@@ -136,9 +139,7 @@ header
   display: block;
 }
 
-#darkmodeContent{
-  height: 70px;
-}
+
 
 /*makes it clear what you are selecting*/
 .dropdown_content li:hover {background-color: #515151}
