@@ -7,7 +7,6 @@
   font-family: sans-serif;
   border: none;
 
-  color: rgb(255, 255, 255);
   font-size: 1.1rem;
 }
  
@@ -15,8 +14,68 @@
 
 body
 {
+  color: rgb(255, 255, 255);
   background-color: black; 
 }
+
+.DarkModeButton
+{
+  cursor: pointer;
+}
+
+a{
+  color:white;
+}
+button{
+  color:white;
+}
+body.DarkMode{
+  background-color: white;
+  color: black;
+}
+.DarkMode   button{
+  color: black;
+}
+
+.DarkMode  a{
+  color: black;
+}
+
+.DarkMode #footer_nav {
+  background-color: lightgray;
+  color: black;
+}
+
+.DarkMode .es-review-content-text{
+  color: black;
+}
+
+.DarkMode .virt_gal_figcap{
+  background-color: lightgray;
+}
+
+.DarkMode .sub_text{
+  color: black;
+}
+
+.DarkMode .Exb_Events_figcap{
+  background-color: lightgray;
+}
+
+.DarkMode .swiper-slide{
+  background-color: lightgray;
+}
+
+.DarkModeButton{
+  background-color: black;
+  color: white;
+}
+
+.DarkMode .DarkModeButton{
+  background-color: white;
+  color: black;
+}
+
 
 header
 {
@@ -55,11 +114,7 @@ header
  
 }
 
-.dropbtn:hover
-{
-  display: block;
-  color: rgb(132, 20, 236);
-}
+
 
 /* Dropdown Content (Hidden by Default)*/
 .dropdown_content
@@ -69,20 +124,29 @@ header
   background-color: rgb(0, 0, 0);
 }
 
+.DarkMode .dropdown_content{
+  background: lightgray;
+}
+
 /* Show the dropdown menu on hover*/
 .dropdown:hover .dropdown_content
 {
   display: block;
+  
 }
+
 
 /*makes it clear what you are selecting*/
 .dropdown_content li:hover {background-color: #515151}
 
+.DarkMode .dropdown_content li:hover {background-color: rgb(255, 254, 254)}
 
 .dropdown_content > *
 {
   padding: 20px;
 }
+
+
 
  
 
@@ -91,6 +155,7 @@ header
 {
   background: url('../img/nxt_museum_intro_image2.jpg') center/cover; /* what does cover do? */
   height: 900px;
+  color: white;
 }
 
 #intro_text {

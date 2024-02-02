@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
-    
+
     <title>
         Nxt Museum
     </title>
@@ -19,6 +19,15 @@
 
             <ul id="top_nav">
                 <img src="img/nxt_museum_logo.jpg" alt="logo of the nxt museum">
+                
+                <button onclick="myFunction()" class="DarkModeButton">Dark Mode</button>
+
+                <script>
+                    function myFunction() {
+                        var element = document.body;
+                        element.classList.toggle("DarkMode");
+                    }
+                </script>
                 <li><a href="NL/index.html">NL_EN</a></li>
                 <li><a href="#Shop">Shop</a></li>
                 <li><a href="#Search">Search</a></li>
@@ -28,10 +37,14 @@
             <!--shows sub options when hovering over button-->
             <ul id="bottom_nav">
 
+
+
                 <li class="dropdown">
                     <button class="dropbtn">Visit</button>
                     <ul class="dropdown_content">
-                        <li><a href="https://tickets.nxtmuseum.com/en">Buy Ticket</a></li>
+                        <li><a
+                                href="https://tickets.nxtmuseum.com/en/tickets?_gl=1*w90ipr*_ga*MTQzOTAyNzY2NS4xNzA0ODA0Njc2*_ga_FL5TDXMYGX*MTcwNjE4MjY1OS40LjEuMTcwNjE4MzU1NC4wLjAuMA..*_fplc*ZSUyRmVHNG43bTRxbTNPTDNzOVdsbFdlamhlZU9OSVRXalQ2THQyajU5RkNlVTJhTVJ0WlkxMWRlcVlBbmVlM1VlWDJURWc0WDVIZWg3RnVMb0E1U09OMkZUdGNCdk5nZzRzZzR1eUFSR1g4c3lFT2wzUE9iWU51Rkc0dEJZYWclM0QlM0Q.">Buy
+                                Ticket</a></li>
                         <li><a href="#museum_map">Museum Map</a></li>
                         <li><a href="#Accessibility">Accessibility</a></li>
                         <li><a href="#food_and_drinks">Food and Drinks</a></li>
@@ -71,7 +84,7 @@
                     <ul class="dropdown_content">
                         <li><a href="#buy_Membership">Buy Membership</a></li>
                         <li><a href="#renew_Membership">Renew Membership</a></li>
-                        <li><a href="#Upgrade_Membership">Upgrade Membership</a></li>        
+                        <li><a href="#Upgrade_Membership">Upgrade Membership</a></li>
                         <li><a href="#Members_Room">Members Room</a></li>
                     </ul>
                 </li>
@@ -90,14 +103,14 @@
 
     <!-- hero image with introduction text -->
     <figure>
-        <div id="hero_image" alt="People in a darkly lit room.">
+        <div id="hero_image">
             <figcaption id="intro_text">
                 <h3 class="sub_title_bottom_spacing">Welcome to the NXT museum</h3>
                 <p>
-                    The home of new media art. 
-                    Discover large scale, 
-                    multi-sensory exhibitions which challenge assumptions and open minds. 
-                    We seek, 
+                    The home of new media art.
+                    Discover large scale,
+                    multi-sensory exhibitions which challenge assumptions and open minds.
+                    We seek,
                     show and question what is Nxt.
                 </p>
             </figcaption>
@@ -109,107 +122,111 @@
         <!--image slider-->
         <div id="Exb_Events_slider_container">
 
-                <h2 id="sub_title_weird">Exhibitions and Events</h2>
-                <ul class="slider">
-                    <li class= "slide_show_piece">
-                        <figure>
-                        
-                            <img class="Exb_Events_imgs" src="img/event1_2.jpg" alt="people talking with wine in nxt museum">
-                            <figcaption class="Exb_Events_figcap">
-                                <h2 class="Exb_Events_sub_title">Fine Wine</h2>
-                                <p class="sub_text">
-                                    Pair our mesmerising digital art, 
-                                    Realtime, with a glass of wine selected by Café Restaurant Metro.
-                                </p>
-                            </figcaption>
+            <h2 id="sub_title_weird">Exhibitions and Events</h2>
+            <ul class="slider">
+                <li class="slide_show_piece">
+                    <figure>
 
-                        </figure>
-                    </li>
+                        <img class="Exb_Events_imgs" src="img/event1_2.jpg"
+                            alt="people talking with wine in nxt museum">
+                        <figcaption class="Exb_Events_figcap">
+                            <h2 class="Exb_Events_sub_title">Fine Wine</h2>
+                            <p class="sub_text">
+                                Pair our mesmerising digital art,
+                                Realtime, with a glass of wine selected by Café Restaurant Metro.
+                            </p>
+                        </figcaption>
 
-
-                    <li class= "slide_show_piece">
-                        <figure>
-                        
-                            <img class="Exb_Events_imgs" src="img/event2_2.jpg" alt="statue of an alien like person">
-                            <figcaption class="Exb_Events_figcap">
-                                <h3 class="Exb_Events_sub_title">Queerness Intelligence</h3>
-                                <p class="sub_text">
-                                    As we celebrate Pride month and the last weeks of our exhibition, 
-                                    UFO Unidentified Fluid Other.
-                                </p>
-                            </figcaption>
-                        
-                        </figure>
-                    </li>
-                
-
-                    <li class= "slide_show_piece">
-                        <figure>
-                        
-                            <img class="Exb_Events_imgs" src="img/event3_2.jpg" alt="person sitting on chair while falling down onto earth">
-                            <figcaption class="Exb_Events_figcap">
-                                <h3 class="Exb_Events_sub_title">Film Screening</h3>
-                                <p class="sub_text">
-                                    Come have all your illusions of self shattered in visual artist Lu Yangs latest video work, 
-                                    Doku The Self.
-                                </p>
-                            </figcaption>
-                        
-                        </figure>
-                    </li>
-                
-
-                    <li class= "slide_show_piece">
-                        <figure>
-                        
-                            <img class="Exb_Events_imgs" src="img/event4_2.jpg" alt="spider like creature">
-                            <figcaption class="Exb_Events_figcap">
-                                <h3 class="Exb_Events_sub_title">XENOPUNK VR</h3>
-                                <p class="sub_text">
-                                    “Xenopunk” is a new take on the collectives signature AI-based digital ecosystem, 
-                                    as debuted at Printworks London in 2021.
-                                </p>
-                            </figcaption>
-                        
-                        </figure>
-                    </li>
+                    </figure>
+                </li>
 
 
-                    <li class= "slide_show_piece">
-                        <figure>
-                        
-                            <img class="Exb_Events_imgs" src="img/event5_2.jpg" alt="people enjoying a disco party">
-                            <figcaption class="Exb_Events_figcap">
-                                <h3 class="Exb_Events_sub_title">Museum night Amsterdam</h3>
-                                <p class="sub_text">
-                                    Enter a portal to another paradigm, 
-                                    and find yourself immersed in Nxt Museums latest exhibition UFO, 
-                                    Unidentified Fluid Other.
-                                </p>
-                            </figcaption>
-                        
-                        </figure>
-                    </li>
+                <li class="slide_show_piece">
+                    <figure>
+
+                        <img class="Exb_Events_imgs" src="img/event2_2.jpg" alt="statue of an alien like person">
+                        <figcaption class="Exb_Events_figcap">
+                            <h3 class="Exb_Events_sub_title">Queerness Intelligence</h3>
+                            <p class="sub_text">
+                                As we celebrate Pride month and the last weeks of our exhibition,
+                                UFO Unidentified Fluid Other.
+                            </p>
+                        </figcaption>
+
+                    </figure>
+                </li>
 
 
-                    <li class= "slide_show_piece">
-                        <figure>
-                        
-                            <img class="Exb_Events_imgs" src="img/event6_2.jpg" alt="dj playing music">
-                            <figcaption class="Exb_Events_figcap">
-                                <h3 class="Exb_Events_sub_title">ADE Beat</h3>
-                                <p class="sub_text">
-                                    Kicking off with a performance by artist and coder YUXI CAO and sound artist Lau Hiu Kong (Lawrence), 
-                                    whose work features in the current exhibition.
-                                </p>
-                            </figcaption>
-                        
-                        </figure>
-                    </li>
+                <li class="slide_show_piece">
+                    <figure>
 
-                </ul>
+                        <img class="Exb_Events_imgs" src="img/event3_2.jpg"
+                            alt="person sitting on chair while falling down onto earth">
+                        <figcaption class="Exb_Events_figcap">
+                            <h3 class="Exb_Events_sub_title">Film Screening</h3>
+                            <p class="sub_text">
+                                Come have all your illusions of self shattered in visual artist Lu Yangs latest video
+                                work,
+                                Doku The Self.
+                            </p>
+                        </figcaption>
 
-            
+                    </figure>
+                </li>
+
+
+                <li class="slide_show_piece">
+                    <figure>
+
+                        <img class="Exb_Events_imgs" src="img/event4_2.jpg" alt="spider like creature">
+                        <figcaption class="Exb_Events_figcap">
+                            <h3 class="Exb_Events_sub_title">XENOPUNK VR</h3>
+                            <p class="sub_text">
+                                “Xenopunk” is a new take on the collectives signature AI-based digital ecosystem,
+                                as debuted at Printworks London in 2021.
+                            </p>
+                        </figcaption>
+
+                    </figure>
+                </li>
+
+
+                <li class="slide_show_piece">
+                    <figure>
+
+                        <img class="Exb_Events_imgs" src="img/event5_2.jpg" alt="people enjoying a disco party">
+                        <figcaption class="Exb_Events_figcap">
+                            <h3 class="Exb_Events_sub_title">Museum night Amsterdam</h3>
+                            <p class="sub_text">
+                                Enter a portal to another paradigm,
+                                and find yourself immersed in Nxt Museums latest exhibition UFO,
+                                Unidentified Fluid Other.
+                            </p>
+                        </figcaption>
+
+                    </figure>
+                </li>
+
+
+                <li class="slide_show_piece">
+                    <figure>
+
+                        <img class="Exb_Events_imgs" src="img/event6_2.jpg" alt="dj playing music">
+                        <figcaption class="Exb_Events_figcap">
+                            <h3 class="Exb_Events_sub_title">ADE Beat</h3>
+                            <p class="sub_text">
+                                Kicking off with a performance by artist and coder YUXI CAO and sound artist Lau Hiu
+                                Kong (Lawrence),
+                                whose work features in the current exhibition.
+                            </p>
+                        </figcaption>
+
+                    </figure>
+                </li>
+
+            </ul>
+
+
 
 
 
@@ -217,50 +234,52 @@
             <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
             <script>
-                $(document).ready(function(){
-                    
+                $(document).ready(function () {
+
                     $('.slider').slick({
                         slidesToShow: 3,   // Show 3 slides at once
                         slidesToScroll: 1, // Scroll 1 slide at a time
                         arrows: true,     // We're using custom navigation buttons
                     });
-                
+
                     // Custom navigation buttons
-                    $('.slick-prev').on('click', function(){
+                    $('.slick-prev').on('click', function () {
                         $('.slider').slick('slickPrev');
                     });
-                
-                    $('.slick-next').on('click', function(){
+
+                    $('.slick-next').on('click', function () {
                         $('.slider').slick('slickNext');
                     });
                 });
             </script>
 
+
+
         </div>
 
         <!--virtual_gallery-->
-        <div>            
+        <div>
             <h2 class="sub_title_bottom_spacing">Virtual Gallery</h2>
-        
+
             <ul id="virtual_gallery_list">
                 <li>
                     <figure>
-                        <img class= "virtual_gallery_image" src="img/virtual_gallery1.jpg" alt="abstract art">                        
+                        <img class="virtual_gallery_image" src="img/virtual_gallery1.jpg" alt="abstract art">
                         <figcaption class="virt_gal_figcap">
-                            <p class="sub_text">                                    
+                            <p class="sub_text">
                                 Explore the world,
-                                where organic artifacts like corals and fossils morph into digital nature.                                
+                                where organic artifacts like corals and fossils morph into digital nature.
                             </p>
-                        
+
                         </figcaption>
                     </figure>
                 </li>
 
                 <li>
-                    <figure>                    
-                        <img class= "virtual_gallery_image" src="img/virtual_gallery2.jpg" alt="abstract art">
-                        <figcaption  class="virt_gal_figcap">
-                            
+                    <figure>
+                        <img class="virtual_gallery_image" src="img/virtual_gallery2.jpg" alt="abstract art">
+                        <figcaption class="virt_gal_figcap">
+
                             <p class="sub_text">
                                 I use fractal formulas to reveal what already exists on nature's canvas.
                             </p>
@@ -269,23 +288,23 @@
                 </li>
 
                 <li>
-                    <figure>                    
-                        <img class= "virtual_gallery_image" src="img/virtual_gallery3.jpg" alt="Zoomed in picture of a mountain">
+                    <figure>
+                        <img class="virtual_gallery_image" src="img/virtual_gallery3.jpg" alt="abstract art">
                         <figcaption class="virt_gal_figcap">
-                            
+
                             <p class="sub_text">
-                                Explore the Acropia, 
-                                where organic artifacts morph into digital nature.                                                            
+                                Explore the Acropia,
+                                where organic artifacts morph into digital nature.
                             </p>
                         </figcaption>
                     </figure>
                 </li>
 
                 <li>
-                    <figure>                    
-                        <img class= "virtual_gallery_image" src="img/virtual_gallery4.jpg" alt="Alien portrait.">
+                    <figure>
+                        <img class="virtual_gallery_image" src="img/virtual_gallery4.jpg" alt="abstract art">
                         <figcaption class="virt_gal_figcap">
-                            
+
                             <p class="sub_text">
                                 I subvert the gaze of how femme bodies are
                                 portrayed via the expression.
@@ -297,7 +316,7 @@
             </ul>
         </div>
 
-        
+
         <!--google_reviews-->
         <div>
             <h2 class="sub_title_bottom_spacing">Reviews</h2>
@@ -311,25 +330,29 @@
     <footer>
         <!--footer info-->
         <nav id="footer_nav">
-            
+
             <div id="footer_container">
                 <!--weird_row has a 1/3, 2/3 split-->
                 <div id="weird_row">
                     <div class="grid-item">
-                        <h4 class="sub_title_bottom_spacing">Connect With Us</h4>                    
-                        <a href="https://www.instagram.com/nxtmuseum/"><img class="img_logo" src="img/instagram.png" alt="instagram logo"></a>
-                        <a href="https://www.tiktok.com/@nxtmuseum?"><img class="img_logo" src="img/tiktok.png" alt="tiktok logo"></a>
-                        <a href="https://twitter.com/nxtmuseum"><img class="img_logo" src="img/twitter.png" alt="twitter logo"></a>
-                        <a href="https://www.youtube.com/channel/UC1Afhs22rJqLfblV4GOpFTA"><img class="img_logo" src="img/youtube.png" alt="youtube logo"></a>
+                        <h4 class="sub_title_bottom_spacing">Connect With Us</h4>
+                        <a href="https://www.instagram.com/nxtmuseum/"><img class="img_logo" src="img/instagram.png"
+                                alt="instagram logo"></a>
+                        <a href="https://www.tiktok.com/@nxtmuseum?"><img class="img_logo" src="img/tiktok.png"
+                                alt="tiktok logo"></a>
+                        <a href="https://twitter.com/nxtmuseum"><img class="img_logo" src="img/twitter.png"
+                                alt="twitter logo"></a>
+                        <a href="https://www.youtube.com/channel/UC1Afhs22rJqLfblV4GOpFTA"><img class="img_logo"
+                                src="img/youtube.png" alt="youtube logo"></a>
                     </div>
-    
+
                     <div class="grid-item">
                         <h4 class="sub_title_bottom_spacing">Enter your email address to receive our newsletter</h4>
                         <input id="newsletter">
                         <button id="newsletter_button">sign up</button>
                     </div>
                 </div>
-            
+
                 <div class="normal_row">
                     <div class="grid-item">
                         <h4 class="sub_title_bottom_spacing">Address</h4>
@@ -339,7 +362,7 @@
                             1031 HP Amsterdam
                         </p>
                     </div>
-                
+
                     <div class="grid-item">
                         <h4 class="sub_title_bottom_spacing">Opening hours</h4>
                         <ul>
@@ -348,7 +371,7 @@
                             <li>Thu-Sun: 10:30 am-10:30 pm</li>
                         </ul>
                     </div>
-                
+
                     <div class="grid-item">
                         <h4 class="sub_title_bottom_spacing">Visit</h4>
                         <ul>
@@ -359,7 +382,7 @@
                         </ul>
                     </div>
                 </div>
-            
+
                 <div class="normal_row">
                     <div class="grid-item">
                         <h4 class="sub_title_bottom_spacing">About Us</h4>
@@ -370,7 +393,7 @@
                             <li><a href="test">FAQ</a></li>
                         </ul>
                     </div>
-                
+
                     <div class="grid-item">
                         <h4 class="sub_title_bottom_spacing">Licensing</h4>
                         <ul>
@@ -382,12 +405,11 @@
                     </div>
                 </div>
             </div>
-    
+
 
         </nav>
     </footer>
-    
+
 </body>
+
 </html>
-
-
